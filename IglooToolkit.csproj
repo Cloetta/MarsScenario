@@ -56,104 +56,104 @@
     <Analyzer Include="D:\Visual Studio Community 2022\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerModalWindow.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\ExternalWindow\SwapChain\SwapChainWrapper.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Animated Icon\AnimatedIconHandler.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\DisplayManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\Rotate.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerNotification.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerToggle.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerAnimatedIcon.cs" />
     <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\VirtualDisplay.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Examples\IglooExample1.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerHSelector.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\VRController.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Modal Window\ModalWindowTabs.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\DrawUI.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\ExternalWindow\SwapChain\DisplaySender.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Display.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Progress Bar\PBFilled.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\LayoutObjects.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\FollowObjectTransform.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RangeSlider.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerButtonEditor.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Examples\IglooExample2.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\MoveBalls.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\HorizontalSelector.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoTopListShadow.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\IglooCanvasController.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\Tools_Layout.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\ExternalWindow\SwapChain\SwapChainWrapper.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WarpBlend.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Scripts\OptitrackStreamingClient.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\IglooUtils.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoTopButton.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\ModalWindowManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Scripts\OptitrackRigidBody.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\VirtualInputCursor.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\MoveToPostion.cs" />
     <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Scripts\OptitrackSkeletonAnimator.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\NetworkManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerDropdown.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\HeadManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerTooltip.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Tracker.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Fixes\UIElementInFront.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerButton.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Notification\NotificationManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerProgressBarLoop.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerSliderEditor.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WarpBlendCompositor.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerInputField.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\NetworkManagerOSC.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\SliderManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\ViconVRPN.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WarpBlendManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\BlitMaterialFeature.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\UIManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RangeMaxSlider.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Progress Bar\ProgressBar.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\DemoScrollManager.cs" />
     <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Scripts\OptitrackHmd.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Tooltip\TooltipContent.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\PlayerPointer.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RangeMinSlider.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Plugins\Managed\NatNetLib\Native.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WindowManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Dropdown\CustomDropdown.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\TrackerSettings.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerSlider.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\PlayerManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\TextureShareUtility.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Dropdown\DropdownMultiSelect.cs" />
     <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Plugins\Managed\NatNetLib\Client.cs" />
     <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\IglooSettings.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerProgressBar.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerSliderEditor.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoScrollForMore.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\HeadManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\IglooUtils.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RangeMinSlider.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\VirtualDisplay.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\BlitMaterialFeature.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerTooltip.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Crosshair.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RangeSlider.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WarpBlendCompositor.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RadialSlider.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Examples\IglooExample1.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoTopButton.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerHSelector.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\OptitrackRigidbodyIgloo.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Notification\NotificationManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\UIManager.cs" />
     <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\TooltipManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Modal Window\ModalWindowTabs.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\TrackerPreset.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RangeMaxSlider.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Plugins\Managed\NatNetLib\Native.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\VRController.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\LayoutGroupPositionFix.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerProgressBarLoopEditor.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerButtonEditor.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\TrackerHostSettings.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Progress Bar\ProgressBar.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerSwitch.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\VRPN.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\DisplayManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\ModalWindowManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\Rotate.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerInputField.cs" />
     <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\VirtualInputModule.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Singleton.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\NetworkManagerOSC.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\LaunchURL.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Scripts\OptitrackRigidBody.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\IglooManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\SliderManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\DrawUI.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerScrollbar.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\DefaultConfigurations.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\VirtualInputCursor.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WindowManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\ExternalWindow\SwapChain\DisplaySender.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WarpBlend.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Examples\IglooExample2.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Switch\SwitchManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Dropdown\CustomDropdown.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\NetworkManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\ViconVRPN.cs" />
     <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Others\UIGradient.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\MoveBalls.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Scripts\OptitrackStreamingClient.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Tracker.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\ToggleAnim.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Display.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\HorizontalSelector.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\TrackerSettings.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\IglooCanvasController.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoTopListShadow.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\Fisheye.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerProgressBarLoop.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerNotification.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Input Field\CustomInputField.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerSlider.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Fixes\UIElementInFront.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\WarpBlendManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerModalWindow.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Animated Icon\AnimatedIconHandler.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\TrackerPreset.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\LayoutGroupPositionFix.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\LaunchURL.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\IglooManager.cs" />
     <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\PhysicalDisplay.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Progress Bar\PBFilled.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\Tools_Layout.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\LayoutObjects.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerToggle.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerButton.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\MoveToPostion.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\PlayerManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerDropdown.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerAnimatedIcon.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\FollowObjectTransform.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\TextureShareUtility.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\DemoScrollManager.cs" />
-    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Dropdown\DropdownMultiSelect.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\PlayerPointer.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\OptitrackRigidbodyIgloo.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerProgressBarLoopEditor.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\TrackerHostSettings.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Plugins\UnityVRPN\Scripts\VRPN.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\DefaultConfigurations.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Input Field\CustomInputField.cs" />
     <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\SettingsManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Tooltip\TooltipContent.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Crosshair.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerSwitch.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerScrollbar.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Switch\SwitchManager.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\ToggleAnim.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\UI Manager\UIManagerProgressBar.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Demo\DemoScrollForMore.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\UI System\Slider\RadialSlider.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\PluginScripts\Singleton.cs" />
+    <Compile Include="Assets\Igloo Toolkit\Scripts\Utils\Fisheye.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Igloo Toolkit\Plugins\OptiTrack\Plugins\x86_64\NatNetLib.dll" />
@@ -458,6 +458,18 @@
     <Reference Include="UnityEditor.UWP.Extensions">
       <HintPath>D:\UnityProjects\2022.1.14f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.1.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -470,20 +482,8 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.1.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>

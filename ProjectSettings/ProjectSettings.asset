@@ -947,6 +947,7 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -961,11 +962,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: f878aeee-e5e5-4d68-aa93-2c5692e73727
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: MarsScenario
+  organizationId: cloettacoto
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

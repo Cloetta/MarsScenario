@@ -317,14 +317,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\UnityProjects\2022.1.14f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.1.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\org.nuget.system.runtime.compilerservices.unsafe@4.5.3\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
@@ -728,6 +728,12 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Klak.Spout.Runtime">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -758,20 +764,29 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="extOSC.Editor">
+      <HintPath>Library\ScriptAssemblies\extOSC.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Services.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    <Reference Include="extOSC">
+      <HintPath>Library\ScriptAssemblies\extOSC.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Ndi.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
@@ -785,8 +800,17 @@
     <Reference Include="Unity.Services.Core.Environments">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Ndi.Runtime">
+      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Klak.Spout.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
@@ -794,32 +818,8 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="extOSC.Editor">
-      <HintPath>Library\ScriptAssemblies\extOSC.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="extOSC">
-      <HintPath>Library\ScriptAssemblies\extOSC.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Ndi.Runtime">
-      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.SysrootPackage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Spout.Runtime">
-      <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Ndi.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Ndi.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-    </Reference>
-    <Reference Include="Klak.Spout.Editor">
-      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -827,13 +827,13 @@
       <Project>{0024626E-890C-8054-372D-4BC58EA4CE3A}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="IglooToolkit.csproj">
-      <Project>{F4BE5264-4065-DC76-01CD-EEDDFF641FDC}</Project>
-      <Name>IglooToolkit</Name>
-    </ProjectReference>
     <ProjectReference Include="IglooToolkit..Editor.csproj">
       <Project>{ADF43BCF-2DB0-492F-F57B-528A7DB53A23}</Project>
       <Name>IglooToolkit..Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="IglooToolkit.csproj">
+      <Project>{F4BE5264-4065-DC76-01CD-EEDDFF641FDC}</Project>
+      <Name>IglooToolkit</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
