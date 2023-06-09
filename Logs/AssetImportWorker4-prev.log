@@ -15,7 +15,7 @@ D:/UnityProjects/MarsScenario
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-51828
+50719
 Successfully changed project path to: D:/UnityProjects/MarsScenario
 D:/UnityProjects/MarsScenario
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/UnityProjects/MarsScenario
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 70.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.14f1 (ff7e140968b4)
 [Subsystems] Discovering subsystems at path D:/UnityProjects/2022.1.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'D:/UnityProjects/2022.1.14f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityProjects/2022.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityProjects/2022.1.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/Playb
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003430 seconds.
+Registered in 0.003266 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,61 +87,42 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.518 seconds
+- Completed reload, in  0.511 seconds
 Domain Reload Profiling:
-	ReloadAssembly (518ms)
+	ReloadAssembly (512ms)
 		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (385ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (379ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
-				TypeCache.Initialize (93ms)
-					TypeCache.ScanAssembly (92ms)
+			SetupTypeCache (88ms)
+				TypeCache.Initialize (88ms)
+					TypeCache.ScanAssembly (87ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (232ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (61ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003936 seconds.
-Unauthorized device detected, Id: R5CR6023DHW, please add debug authorization and reconnect.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
-UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
+Registered in 0.003411 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -156,32 +137,32 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  0.894 seconds
 Domain Reload Profiling:
-	ReloadAssembly (919ms)
-		BeginReloadAssembly (192ms)
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (634ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
-				TypeCache.Initialize (204ms)
-					TypeCache.ScanAssembly (200ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (203ms)
+				TypeCache.Initialize (199ms)
+					TypeCache.ScanAssembly (196ms)
+				ResolveRequiredComponents (4ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (286ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -190,12 +171,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (445.3 KB). Loaded Objects now: 4009.
-Memory consumption went from 0.55 GB to 0.55 GB.
-Total: 3.081000 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.253600 ms MarkObjects: 2.306200 ms  DeleteObjects: 0.220900 ms)
+Unloading 3660 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.7 MB). Loaded Objects now: 4132.
+Memory consumption went from 0.58 GB to 0.57 GB.
+Total: 2.801900 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.150300 ms MarkObjects: 2.094600 ms  DeleteObjects: 0.324000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -209,121 +190,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 498925.651686 seconds.
-  path: Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview_Profiles
-  artifactKey: Guid(3e52e81ebacd245e1b8040f6a369d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview_Profiles using Guid(3e52e81ebacd245e1b8040f6a369d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e484a3cf9fe4af651e66c3649ef91d7e') in 0.007161 seconds 
+  Time since last request: 659181.636921 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1033ca3137d734ae22f1264da3984bf1') in 0.022308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.077644 seconds.
-  path: Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview_Profiles/MarsLandscape3DPost-ProcessingVolumeProfile.asset
-  artifactKey: Guid(c30811e6a75df4309b68ce71c0eb88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview_Profiles/MarsLandscape3DPost-ProcessingVolumeProfile.asset using Guid(c30811e6a75df4309b68ce71c0eb88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab67c682b719894c5d0fbdbe618c3fd') in 0.030600 seconds 
+  Time since last request: 7.546966 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7880c45434d80877e111aa8ef4e81035') in 0.002301 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 128.877392 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370481715c41ab736856bed97eca8c11') in 0.005503 seconds 
+  Time since last request: 7.640055 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbd8c6d5e013a8d99f464f9fe0e244b') in 0.006293 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.610892 seconds.
+  Time since last request: 2.579267 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac6b1e5eb768d8029ea3f35f537a379') in 0.002762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.582314 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68046cce4e979f8a96f47360afcd14d') in 0.002841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.009779 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6206df057b89e6d2392cf7cb97acfe10') in 0.002755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.442024 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c3ec306d2a41d872008e364234810e') in 0.002795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.256964 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09675f0f74a5402455dae8ac279b060') in 0.003038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.246052 seconds.
+  path: Assets/Scripts/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367d35fc97185d1a94bdf08ad5555ba8') in 0.002899 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003426 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (633ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+				TypeCache.Initialize (229ms)
+					TypeCache.ScanAssembly (224ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3607 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.6 MB). Loaded Objects now: 4136.
+Memory consumption went from 0.56 GB to 0.56 GB.
+Total: 2.685000 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.138800 ms MarkObjects: 1.963600 ms  DeleteObjects: 0.366700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 782.386752 seconds.
   path: Assets/Scenes/Mars Landscape 3D Overview.unity
   artifactKey: Guid(77920b742b014694e80dab7eb174766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mars Landscape 3D Overview.unity using Guid(77920b742b014694e80dab7eb174766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e84dc0fa99d9100ae51e42297b47ce') in 0.005314 seconds 
+Start importing Assets/Scenes/Mars Landscape 3D Overview.unity using Guid(77920b742b014694e80dab7eb174766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baf3b2f7ce3a66fd71d0936c8170ca1') in 0.019689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.211628 seconds.
-  path: Assets/Scenes/Mars Landscape 3D Overview_Profiles
-  artifactKey: Guid(343c36169843adc4ea10f01a44785ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mars Landscape 3D Overview_Profiles using Guid(343c36169843adc4ea10f01a44785ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063ef358b17e271c85589909baf50204') in 0.005133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 213.218256 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs
-  artifactKey: Guid(15135e86e52ab4b038dcbd61d7549e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs using Guid(15135e86e52ab4b038dcbd61d7549e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192352c09f9b184e7f7040a3b43696a4') in 0.006206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044268 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
-  artifactKey: Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab using Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841b5949146ba342972cc6280f36eccc') in 0.145379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014387 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab
-  artifactKey: Guid(031d08f52af1daa4f929b85221519426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab using Guid(031d08f52af1daa4f929b85221519426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015ade3c3caeac98508c61a232943d48') in 0.163290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
-  artifactKey: Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab using Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce30ba99ee7032101179ddc206c0d02') in 0.058519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab
-  artifactKey: Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab using Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0bb63a0b1614401d18a2819bcbe8b4') in 0.011808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
-  artifactKey: Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab using Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1a328daf1db8c72de6024ae73b7694') in 0.037393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab
-  artifactKey: Guid(ccbcfc705a39717429590a9f247ec30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab using Guid(ccbcfc705a39717429590a9f247ec30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933bbad81a78465c329c90c255641d1d') in 0.012047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
-  artifactKey: Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab using Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9953dde2d167519f98f71130dbd1ff7d') in 0.010815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab
-  artifactKey: Guid(4dbf077105ba797428d118320f2a10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab using Guid(4dbf077105ba797428d118320f2a10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454238b5cbe97de3d91818b9e738c947') in 0.012054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab
-  artifactKey: Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab using Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b4f65f8dbb51a91159c0499dd4a473') in 0.011597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
-  artifactKey: Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab using Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acee951c018054dbd7245c079c3547b') in 0.011883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003095 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab
-  artifactKey: Guid(98c58c8dd46640c49bb5f557afafea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/TyreBurnoutSmoke.prefab using Guid(98c58c8dd46640c49bb5f557afafea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcefc187a72c1c090de59947bada077') in 0.010208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab
-  artifactKey: Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/WildFire.prefab using Guid(2c32987c2bc01844a94adfb917dd677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768a4c47808eec28e7536c0e6acf4c89') in 0.044716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.117793 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat
-  artifactKey: Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat using Guid(7911795df27dd464190eed77dda90191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d4fbba0b16bb4de19d676369e3b4d9') in 0.152836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.083533 seconds.
-  path: Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
-  artifactKey: Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab using Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5ead35341a3854c6ded614b2424b98') in 0.007150 seconds 
+  Time since last request: 14.300975 seconds.
+  path: Assets/Scenes/Mars Landscape 3D Overview.unity
+  artifactKey: Guid(77920b742b014694e80dab7eb174766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mars Landscape 3D Overview.unity using Guid(77920b742b014694e80dab7eb174766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1389daa95231c4816ae8b77c00634b5d') in 0.001774 seconds 

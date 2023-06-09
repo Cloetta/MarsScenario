@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Mars Landscape 3D Overview.unity
+    guid: 77920b742b014694e80dab7eb174766b
   m_configObjects: {}

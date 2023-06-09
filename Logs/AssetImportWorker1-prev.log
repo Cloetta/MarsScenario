@@ -15,7 +15,7 @@ D:/UnityProjects/MarsScenario
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51828
+50719
 Successfully changed project path to: D:/UnityProjects/MarsScenario
 D:/UnityProjects/MarsScenario
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/UnityProjects/MarsScenario
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 54.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.14f1 (ff7e140968b4)
 [Subsystems] Discovering subsystems at path D:/UnityProjects/2022.1.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'D:/UnityProjects/2022.1.14f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityProjects/2022.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityProjects/2022.1.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/Playb
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: D:/UnityProjects/2022.1.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003445 seconds.
+Registered in 0.003618 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,61 +87,42 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.531 seconds
+- Completed reload, in  0.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (531ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (580ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (390ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
-				TypeCache.Initialize (90ms)
-					TypeCache.ScanAssembly (89ms)
+			SetupTypeCache (105ms)
+				TypeCache.Initialize (104ms)
+					TypeCache.ScanAssembly (103ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (55ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003705 seconds.
-Unauthorized device detected, Id: R5CR6023DHW, please add debug authorization and reconnect.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
-UnityEngine.Debug:LogFormat (string,object[])
-UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
-UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
-UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
-System.Threading.Tasks.Task:InnerInvoke ()
-System.Threading.Tasks.Task:Execute ()
-System.Threading.Tasks.Task:ExecutionContextCallback (object)
-System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
-System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
-System.Threading.Tasks.Task:ExecuteEntry (bool)
-System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
-System.Threading.ThreadPoolWorkQueue:Dispatch ()
-System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
-
+Registered in 0.003817 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -153,127 +134,49 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  1.038 seconds
 Domain Reload Profiling:
-	ReloadAssembly (902ms)
-		BeginReloadAssembly (193ms)
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (118ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (742ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
-				TypeCache.Initialize (207ms)
-					TypeCache.ScanAssembly (203ms)
-				ResolveRequiredComponents (3ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (280ms)
+			SetupTypeCache (248ms)
+				TypeCache.Initialize (244ms)
+					TypeCache.ScanAssembly (237ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (336ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (175ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (58.2 KB). Loaded Objects now: 3858.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 2.442600 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.172400 ms MarkObjects: 1.948000 ms  DeleteObjects: 0.071300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 488163.599238 seconds.
-  path: Assets/Mars Landscape 3D/Scenes
-  artifactKey: Guid(74f25c82dee874f13a23de67cdb2f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Scenes using Guid(74f25c82dee874f13a23de67cdb2f576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f66590f428daf3218c18a7b577fdbb') in 0.007218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview.unity
-  artifactKey: Guid(823ba5a4e3e1c7a4cb1ad3f214fec752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview.unity using Guid(823ba5a4e3e1c7a4cb1ad3f214fec752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1403a594fe1b69115a4716beae79c878') in 0.006022 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003874 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
-Domain Reload Profiling:
-	ReloadAssembly (768ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (593ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-				TypeCache.Initialize (202ms)
-					TypeCache.ScanAssembly (197ms)
-				ResolveRequiredComponents (3ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (261ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (25.4 KB). Loaded Objects now: 3861.
-Memory consumption went from 0.51 GB to 0.51 GB.
-Total: 2.100500 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.102700 ms MarkObjects: 1.751800 ms  DeleteObjects: 0.022000 ms)
+Unloading 3659 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.7 MB). Loaded Objects now: 4131.
+Memory consumption went from 0.58 GB to 0.57 GB.
+Total: 4.116600 ms (FindLiveObjects: 0.345000 ms CreateObjectMapping: 0.287700 ms MarkObjects: 2.993500 ms  DeleteObjects: 0.488800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -287,164 +190,244 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.899915 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Geometry/ML3D_Rocks_01.fbx
-  artifactKey: Guid(3ddc61472d3f447bfb36a22d4488debd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Geometry/ML3D_Rocks_01.fbx using Guid(3ddc61472d3f447bfb36a22d4488debd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29fe1866a72a0b8f0a9410e89214fd4') in 0.421151 seconds 
+  Time since last request: 658172.871769 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
+  artifactKey: Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab using Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8e35eb5d420b1cd6b73f6e858b6a39') in 0.361213 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003643 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (840ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+				TypeCache.Initialize (237ms)
+					TypeCache.ScanAssembly (227ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3607 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.6 MB). Loaded Objects now: 4147.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 2.576300 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.124300 ms MarkObjects: 1.893900 ms  DeleteObjects: 0.336100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003319 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+				TypeCache.Initialize (213ms)
+					TypeCache.ScanAssembly (209ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3608 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.6 MB). Loaded Objects now: 4150.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 3.030100 ms (FindLiveObjects: 0.242400 ms CreateObjectMapping: 0.181100 ms MarkObjects: 2.179500 ms  DeleteObjects: 0.426000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Geometry/Terrain.asset
-  artifactKey: Guid(bcc00276e3c6f482bb6d47fd04ead463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Geometry/Terrain.asset using Guid(bcc00276e3c6f482bb6d47fd04ead463) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree ML3D_Rocks_02_04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_02_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_02_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_02_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_02_00 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_00_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_00_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_01_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_01_03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree ML3D_Rocks_01_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: 'f1db6fa16c9d539ea7acf0025afca3f2') in 0.117616 seconds 
+  Time since last request: 61.996810 seconds.
+  path: Assets/Scripts/StormRotation.cs
+  artifactKey: Guid(b47e534c3c631dc4686658f7e7e32ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StormRotation.cs using Guid(b47e534c3c631dc4686658f7e7e32ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743cb2d60d1d4ebc809ae8e360fff21e') in 0.023679 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\MarsScenario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (772ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (599ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+				TypeCache.Initialize (195ms)
+					TypeCache.ScanAssembly (191ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3607 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.6 MB). Loaded Objects now: 4153.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 2.600900 ms (FindLiveObjects: 0.203200 ms CreateObjectMapping: 0.145300 ms MarkObjects: 1.904500 ms  DeleteObjects: 0.346800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Materials/Ground_02.terrainlayer
-  artifactKey: Guid(e118f863714604de4ab4a01b5cea80c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Materials/Ground_02.terrainlayer using Guid(e118f863714604de4ab4a01b5cea80c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6b4c30d18ea236d94492c94cfbdf52') in 0.021126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Materials/Ground_03.terrainlayer
-  artifactKey: Guid(13f086762e8674530af62b721b1065e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Materials/Ground_03.terrainlayer using Guid(13f086762e8674530af62b721b1065e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17691b2ffcb69d4af33403392370122f') in 0.014264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Materials/ML3D_Rocks_02.mat
-  artifactKey: Guid(ddbf0e092d7944606a2c5d9bfb10044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Materials/ML3D_Rocks_02.mat using Guid(ddbf0e092d7944606a2c5d9bfb10044c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a751f6c43a92f156de298d37d7eedc29') in 0.201176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Geometry/ML3D_Rocks_02.fbx
-  artifactKey: Guid(58a5ab3dee2df4b7ca1055a0d6b8fe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Geometry/ML3D_Rocks_02.fbx using Guid(58a5ab3dee2df4b7ca1055a0d6b8fe60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d4baf7e8be88e47a23ee0fef5cde04') in 0.052206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Materials/ML3D_Rocks_00.mat
-  artifactKey: Guid(adf33d9b462294ac4bb0b485c9ecedfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Materials/ML3D_Rocks_00.mat using Guid(adf33d9b462294ac4bb0b485c9ecedfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac7bfeee134923034a5e495084d0d67') in 0.022598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Materials/Crater_Brush.brush
-  artifactKey: Guid(60fc75f5c726b458d97fb53592b33cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Materials/Crater_Brush.brush using Guid(60fc75f5c726b458d97fb53592b33cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c77a8c2abb3e77959c0a472a56d0cd4') in 0.015869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.584527 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/Ground_00_D.png
-  artifactKey: Guid(6a14e406b18fb48aaa310a326876f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/Ground_00_D.png using Guid(6a14e406b18fb48aaa310a326876f97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee38da9977e5039bc25dbc8725b23cec') in 0.015527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_00_Normal.png
-  artifactKey: Guid(d1f1907a43022430c8a730e0eba4af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_00_Normal.png using Guid(d1f1907a43022430c8a730e0eba4af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3374389a45890fd21a52f3eae04989') in 0.018307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/Ground_02_N.png
-  artifactKey: Guid(860ff13a2dd4c4bd382161ad6bdd4180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/Ground_02_N.png using Guid(860ff13a2dd4c4bd382161ad6bdd4180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284bd38a62e19eddf3dee5f8374e8511') in 0.014786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_00_AlbedoTransparency.png
-  artifactKey: Guid(c32a40268d33d4d7f98b1fd1fd3eb2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_00_AlbedoTransparency.png using Guid(c32a40268d33d4d7f98b1fd1fd3eb2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74453e78c35e3550a161f92aa137293') in 0.014071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_01_Normal.png
-  artifactKey: Guid(26fa470ebd9114fec929d301808630ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_01_Normal.png using Guid(26fa470ebd9114fec929d301808630ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df02a5d7f30efaf890e50cdc686d1192') in 0.015843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/Smoke.png
-  artifactKey: Guid(7e92e657da92e4461a765169324acb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/Smoke.png using Guid(7e92e657da92e4461a765169324acb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71607b423436f807bf10be894206c248') in 0.013820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/SandDetails.png
-  artifactKey: Guid(117845fd596dd4fc0b7d30308a6393f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/SandDetails.png using Guid(117845fd596dd4fc0b7d30308a6393f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7fe6d884596fcc7eb1a426fcc7f3d2') in 0.015109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/LensDirt.png
-  artifactKey: Guid(c5e791cb2bf594d32a23bb2697f677d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/LensDirt.png using Guid(c5e791cb2bf594d32a23bb2697f677d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9730a4fd77d5cd05193a79ed53cf0537') in 0.012244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_02_AlbedoTransparency.png
-  artifactKey: Guid(daefb2272129642d3bd999badd1f52fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_02_AlbedoTransparency.png using Guid(daefb2272129642d3bd999badd1f52fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293ec4181c1fe2276172a4834e79b27d') in 0.013796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_02_MetallicSmoothness.png
-  artifactKey: Guid(300a1a5e259454ccfb164c158b79349f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_02_MetallicSmoothness.png using Guid(300a1a5e259454ccfb164c158b79349f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4534a579e00a16df65e7da6b38c1bba7') in 0.012911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_02_Normal.png
-  artifactKey: Guid(7fdaaba5c809c461ab5d477d5bd4a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Resources/Textures/ML3D_Rocks_02_Normal.png using Guid(7fdaaba5c809c461ab5d477d5bd4a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f988029d029e01dca8fb7f7ff1eee9e') in 0.013874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.415778 seconds.
-  path: Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_00_02.prefab
-  artifactKey: Guid(692d26f9515e849e6bf8a16deaab7230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_00_02.prefab using Guid(692d26f9515e849e6bf8a16deaab7230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e504a47079141d0b23ca2a0884cef9de') in 0.029150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_01_02.prefab
-  artifactKey: Guid(668d533b4cc604279955870abf757506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_01_02.prefab using Guid(668d533b4cc604279955870abf757506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb11f6656c4ea30dfbb409994d08199') in 0.027979 seconds 
+  Time since last request: 897.056883 seconds.
+  path: Assets/SampleScenes/Prefabs/GoalPosts.prefab
+  artifactKey: Guid(6df3f650b33fa604cb3f5923fa50d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GoalPosts.prefab using Guid(6df3f650b33fa604cb3f5923fa50d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1428edd9ae297af281db3b5c0703421') in 0.246335 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_02_04.prefab
-  artifactKey: Guid(440ddc44bdac1465b9960626412666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_02_04.prefab using Guid(440ddc44bdac1465b9960626412666aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415875149638d0bb9215cbdb27cddc4') in 0.029134 seconds 
+  path: Assets/Scenes/Mars Landscape 3D Overview_Profiles/MarsLandscape3DPost-ProcessingVolumeProfile.asset
+  artifactKey: Guid(cc7c030c886ccdf40843358e89c1ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mars Landscape 3D Overview_Profiles/MarsLandscape3DPost-ProcessingVolumeProfile.asset using Guid(cc7c030c886ccdf40843358e89c1ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde267ee15de0c3ed0af3bb601992a25') in 0.043714 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_01_01.prefab
-  artifactKey: Guid(ab9eddba29a1e475da0bb23451afb3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_01_01.prefab using Guid(ab9eddba29a1e475da0bb23451afb3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375942a9be268ed3a13f29f210b95a92') in 0.023679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_02_02.prefab
-  artifactKey: Guid(71c58b72eff5848b3b4e2897ef6fda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_02_02.prefab using Guid(71c58b72eff5848b3b4e2897ef6fda92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a333b44036b4a8083c57f3e017f239ae') in 0.025605 seconds 
+  path: Assets/Scenes/Mars Landscape 3D Overview_Profiles/Post-Processing Volume Profile.asset
+  artifactKey: Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mars Landscape 3D Overview_Profiles/Post-Processing Volume Profile.asset using Guid(23f56c6f5c8ea544ca2217f3f3a1c7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca84c8dc8e0107dfde8e1f05ad00b094') in 0.006439 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_01_00.prefab
-  artifactKey: Guid(7de0b1ba75ead40c9ba800f7046b9cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mars Landscape 3D/Prefabs/ML3D_Rocks_01_00.prefab using Guid(7de0b1ba75ead40c9ba800f7046b9cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee36ec17eae0c8fa406a61d12e6ab64') in 0.022108 seconds 
+  path: Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview_Profiles/MarsLandscape3DPost-ProcessingVolumeProfile.asset
+  artifactKey: Guid(c30811e6a75df4309b68ce71c0eb88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mars Landscape 3D/Scenes/Mars Landscape 3D Overview_Profiles/MarsLandscape3DPost-ProcessingVolumeProfile.asset using Guid(c30811e6a75df4309b68ce71c0eb88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c30f40cb94d6fca771335e8f8491b9') in 0.006690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Mars Landscape 3D Overview_Profiles/Post-Processing Volume Profile 1.asset
+  artifactKey: Guid(7fc33990da83cd441baac5bbf4d47dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mars Landscape 3D Overview_Profiles/Post-Processing Volume Profile 1.asset using Guid(7fc33990da83cd441baac5bbf4d47dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d8a40332739d4c687ec7f492edd7ab') in 0.005728 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
